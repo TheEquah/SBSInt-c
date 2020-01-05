@@ -1,5 +1,7 @@
 // Author (Created): Roger "Equah" Hürzeler
+// Author (Modified): Roger "Equah" Hürzeler
 // Date (Created): 12019.12.26 HE
+// Date (Modified): 12020.01.05 HE
 // License: apache-2.0
 
 #include "equah/sbsint.h"
@@ -14,7 +16,7 @@ int main() {
   int end_int;
   
   // [i] Convert integer.
-  size_t req_len = equah_sbsint__requied_bytes(start_int);
+  size_t req_len = equah_sbsint__required_bytes(start_int);
   size_t its = equah_sbsint__int_to_bytes(start_int, sbsint, sbsint_len);
   size_t sti = equah_sbsint__bytes_to_int(sbsint, sbsint_len, &end_int);
   

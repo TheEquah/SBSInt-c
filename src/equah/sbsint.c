@@ -1,5 +1,7 @@
 // Author (Created): Roger "Equah" Hürzeler
+// Author (Modified): Roger "Equah" Hürzeler
 // Date (Created): 12019.12.26 HE
+// Date (Modified): 12020.01.05 HE
 // License: apache-2.0
 
 #include "equah/sbsint.h"
@@ -51,7 +53,7 @@ size_t equah_sbsint__int_to_bytes(equah_sbsint__DEFAULT_INT_TYPE i, unsigned cha
 // [i] Calculates the amount of required bytes for a given number.
 // [P] {equah_sbsint__DEFAULT_INT_TYPE} i => Integer to get required size of.
 // [R] {size_t} => Required array length to store given integer.
-size_t equah_sbsint__requied_bytes(equah_sbsint__DEFAULT_INT_TYPE i) {
+size_t equah_sbsint__required_bytes(equah_sbsint__DEFAULT_INT_TYPE i) {
 	
 	size_t len = (i / (unsigned char) 255) + 1;
 	
