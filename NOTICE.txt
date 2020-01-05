@@ -1,2 +1,2 @@
 SBSInt [C]
-Copyright 12019 HE Roger "Equah" Hürzeler
+Copyright 12019-12020 HE Roger "Equah" Hürzeler
