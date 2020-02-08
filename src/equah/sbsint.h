@@ -16,7 +16,9 @@
 
 // [i] Function declarations.
 size_t equah_sbsint__bytes_to_int(unsigned char *, size_t, equah_sbsint__DEFAULT_INT_TYPE *);
+size_t equah_sbsint__sbytes_to_int(unsigned char (*)(), equah_sbsint__DEFAULT_INT_TYPE *i);
 size_t equah_sbsint__int_to_bytes(equah_sbsint__DEFAULT_INT_TYPE, unsigned char *, size_t);
+size_t equah_sbsint__int_to_sbytes(equah_sbsint__DEFAULT_INT_TYPE, void (*)(unsigned char));
 size_t equah_sbsint__required_bytes(equah_sbsint__DEFAULT_INT_TYPE);
 
 
