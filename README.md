@@ -1,5 +1,6 @@
 <!-- Author (Created): Roger "Equah" Hürzeler -->
 <!-- Date (Created): 12019.12.26 HE -->
+<!-- Date (Modified): 12020.02.08 HE -->
 <!-- License: apache-2.0 -->
 
 **SBSInt [C]**
@@ -46,5 +47,11 @@ This repository provides the following example uses for SBSInt.
 Example which converts an integer to SBSInt and back.
 
 Directory: [`/example/convert`](https://github.com/TheEquah/SBSInt-c/tree/master/example/convert/)
+
+## Convert Stream
+
+Example which converts an integer stream with "read/write single byte" functions to SBSInt and back.
+
+Directory: [`/example/convert_stream`](https://github.com/TheEquah/SBSInt-c/tree/master/example/convert_stream/)
 
 --------------------------------------------------------------------------------
